@@ -7,8 +7,7 @@
 AreTheyDeadYet is (going to be) a simple android app written in python that scrapes the html of a [famousbirthdays](https://www.famousbirthdays.com/ "famousbirthdays") page and checks for "Death:" or "Dead:".
 
 ## Project Plan
-Make python scripts for all the people I want [✔] ➡ make UI [] ➡  Implement some way to exectue python in an android app. thinking about kivy or chaquo[] ➡ add to fdroid repo maybe []
-[]
+Make python scripts for all the people I want [✔] ➡ make UI [ ] ➡  Implement some way to exectue python in an android app. thinking about kivy or chaquo[ ] ➡ add to fdroid repo maybe [ ]
 
 ------------
 
