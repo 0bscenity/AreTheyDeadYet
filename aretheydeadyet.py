@@ -1,5 +1,6 @@
 #combined everyone test v1
 import requests
+import bs4
 from bs4 import BeautifulSoup
 
 def is_dp_dead(url):
