@@ -1,7 +1,30 @@
-#combined everyone test v1
+#combined everyone
+# -*- coding: utf-8 -*-
+#
+#  aretheydeadyet.py
+#  
+#  Copyright 2023  <0bscenity>
+#  
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 3 of the License, or
+#  any later version.
+#  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#  
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+
 import requests
 import bs4
 from bs4 import BeautifulSoup
+
+
 
 def is_dp_dead(url):
 	try:
@@ -97,9 +120,9 @@ def is_dick_dead(url):
 				string=lambda string: "dead" in string.lower() or "death" in string.lower()
 			)
 			if death_occurrences:
-				print("dead")
+				print("dick_dead")
 			else:
-				print("not_dead️")
+				print("dick_not_dead️")
 		else:
 			print(
 				f"Failed to retrieve the webpage. Check if your connected to the internet. Status code: {response.status_code}"
@@ -118,9 +141,9 @@ def is_bushjr_dead(url):
 				string=lambda string: "dead" in string.lower() or "death" in string.lower()
 			)
 			if death_occurrences:
-				print("dead")
+				print("bush_dead")
 			else:
-				print("not_dead️")
+				print("bush_not_dead️")
 		else:
 			print(
 				f"Failed to retrieve the webpage. Check if your connected to the internet. Status code: {response.status_code}"
